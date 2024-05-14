@@ -26,7 +26,7 @@ Este projeto está organizado da seguinte maneira:
 
 **Clonar o repositório**:
   ```
-   git clone https://github.com/Muchanga-dev/fastapi_retrieve).git
+   git clone https://github.com/Muchanga-dev/fastapi_retrieve.git
    cd fastapi_retrieve
    ```
 - Instalar dependências (recomenda-se usar um ambiente virtual):
