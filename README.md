@@ -20,30 +20,34 @@ Este projeto está organizado da seguinte maneira:
 
 ## Pré-requisitos
 
-- Python 3.8 ou superior
+- Python 3.10 ou superior
 
 ## Instalação
 
-1. **Clonar o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/fastapi_retrieve.git
+**Clonar o repositório**:
+  ```
+   git clone https://github.com/Muchanga-dev/fastapi_retrieve).git
    cd fastapi_retrieve
+   ```
+- Instalar dependências (recomenda-se usar um ambiente virtual):
 
-Instalar dependências (recomenda-se usar um ambiente virtual):
-bash
-Copiar código
-pip install -r requirements.txt
-Execução
+**Copiar código**
+
+```pip install -r requirements.txt```
+
+- Execução
 Iniciar o servidor backend:
 
-bash
-Copiar código
-uvicorn backend.api:app --reload --port 8000
-Iniciar o aplicativo frontend (em um novo terminal):
+**Copiar código:**
 
-bash
-Copiar código
-streamlit run frontend/app.py
+```uvicorn backend.api:app --reload --port 8000```
+
+- Iniciar o aplicativo frontend (em um novo terminal):
+
+**Copiar código:**
+
+```streamlit run frontend/app.py```
+
 Agora, acesse http://localhost:8501 no seu navegador para interagir com o frontend do Streamlit.
 
 Usando a API
