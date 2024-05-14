@@ -40,13 +40,20 @@ Iniciar o servidor backend:
 
 **Copiar código:**
 
-```uvicorn backend.api:app --reload --port 8000```
+```
+cd fastapi_retrieve/backend
+python api.py
+
+```
 
 - Iniciar o aplicativo frontend (em um novo terminal):
 
 **Copiar código:**
 
-```streamlit run frontend/app.py```
+```
+cd fastapi_retrieve/frontend
+streamlit run app.py
+```
 
 Agora, acesse http://localhost:8501 no seu navegador para interagir com o frontend do Streamlit.
 
